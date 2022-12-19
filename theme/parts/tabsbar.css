@@ -32,6 +32,11 @@ tab > stack {
 	padding: 0 3px !important;
 }
 
+/* https://github.com/EliverLara/firefox-nordic-theme/issues/16 */
+toolbarbutton {
+  width: auto !important;
+}
+
 /* New hover effect */
 #TabsToolbar toolbarbutton {
 	fill-opacity: .6 !important;
